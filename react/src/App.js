@@ -11,7 +11,7 @@ function App() {
   const isAdmin=true;
   return (
     <div className="">
-      
+      Hello
       <Routes>
         <Route path="/*" element={<CustomerRoutes />} />
         <Route path="/admin/*" element={<AdminPannel />} />
